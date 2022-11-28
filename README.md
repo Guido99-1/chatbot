@@ -1,5 +1,5 @@
 # chatbot
-webchat RASA tourism 
-okteto version 2.3.3
-python 3.8.15
-rasa 3.3.1
+webchat RASA tourism \n
+okteto version 2.3.3 \n
+python 3.8.15 \n
+rasa 3.3.1 \n
