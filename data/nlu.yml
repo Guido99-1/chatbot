@@ -3,89 +3,124 @@ version: "3.1"
 nlu:
 - intent: greet
   examples: |
-    - hey
-    - hello
+    -  hey
+    - hola
+    - buenas
+    - buenos dias
+    - buenos días
+    - buenas tardes
+    - buenas noches
+    - vamos
+    - que tal
     - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - hola bot
+    - hola amigo
+    - que tal
 
 - intent: goodbye
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
     - bye
+    - adiós
+    - que tengas un buen día
+    - nos vemos
+    - hasta luego
     - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - chao
 
 - intent: affirm
   examples: |
+    - sí
+    - si
+    - si claro
+    - por supuesto
+    - ok
+    - afirmativo
+    - correcto
+    - así es
+    - sin duda
     - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
 
 - intent: deny
   examples: |
     - no
     - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - No
+    - nunca
+    - para nada
+    - no me gusta
+    - Claro que no
+    - jamás
+    - no no no
 
 - intent: mood_great
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - perfecto
+    - genial
+    - increíble
+    - sentirse como un rey
+    - maravilloso
+    - Me siento muy bien
+    - Estoy muy bien
+    - Soy increíble
+    - Voy a salvar el mundo
+    - súper entusiasmado
+    - extremadamente bien
+    - tan perfecto
+    - tan bueno
+    - tan perfecto
+    - ok
+    - bien
+    - muy bien
+    - estupendo
+    - fabuloso
 
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - mi día fue horrible
+    - Estoy triste
+    - No me siento muy bien
+    - Estoy decepcionado
+    - súper triste
+    - Estoy muy triste
+    - triste
+    - muy triste
+    - infeliz
+    - no es bueno
+    - no muy bien
+    - extremadamente triste
+    - tan triste
+    - muy triste
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - ¿eres un bot?
+    - ¿eres un humano?
+    - ¿estoy hablando con un bot?
+    - ¿estoy hablando con un humano?
+    - eres un bot?
+    - eres un humano?
+    - estoy hablando con un bot?
+    - estoy hablando con un humano?
+    - eres un bot
+    - eres un humano
+    - estoy hablando con un bot
+    - estoy hablando con un humano
+
+- intent: informacion_atractivos
+  examples: |
+    - necesito información 
+    - informacion 
+    - información 
+    - busco información 
+    - estoy buscando información 
+    - quiero información
+    - solicito informacion 
+    - requiero información
+    - espero información 
+    - deseo información 
+    - me gustaria información 
+    - buscaba información
+    - dame información 
+
+
+

@@ -8,26 +8,30 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - inforacion_atractivos
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "¡Hola! ¿Cómo puedo ayudarte?"
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "¿Te ha servido de algo?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "¡Grandioso!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Adiós"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Soy un bot, encargado de brindar información de los atractivos turísticos de la ciudad de Baños de Agua Santa"
+
+  utter_informacion_atractivos:
+  - text: "Encantado sobre atractivo busca información?"
 
 session_config:
   session_expiration_time: 60
