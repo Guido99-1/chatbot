@@ -1,4 +1,6 @@
 name: chatbot
+autocreate: true
+image: okteto.dev/chatbot:latest
 command: bash
 volumes:
 - /root/.cache/pip
