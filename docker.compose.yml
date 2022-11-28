@@ -2,14 +2,14 @@ version: '3.4'
 services:
 
   duckling-server:
-    image: rasa/duckling:latest
+    image: chatbot:latest
     ports:
     - 8000:8000
     networks:
     - all
 
   rasa-server:
-    image: rasa-bot:latest
+    image: chatbot:latest
     working_dir: /app
     build: "./"
     restart: always
@@ -24,7 +24,7 @@ services:
     - all
 
   rasa-actions-server:
-    image: rasa-bot:latest
+    image: chatbot:latest
     working_dir: /app
     build: "./"
     restart: always
