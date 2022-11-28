@@ -1,4 +1,4 @@
-FROM python:3.8.15-stretch AS BASE
+FROM python:3.8.15 AS BASE
 
 RUN apt-get update \
     && apt-get --assume-yes --no-install-recommends install \
